@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F31874717F13B05002923D1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F31874617F13B05002923D1 /* FacebookSDK.framework */; };
+		0F31874D17F13C7D002923D1 /* FriendSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F31874A17F13C7D002923D1 /* FriendSuggestionViewController.m */; };
+		0F31874E17F13C7D002923D1 /* CloseFriendsDataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F31874C17F13C7D002923D1 /* CloseFriendsDataAccess.m */; };
+		0FA8346C17F13958000A3AA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA8346B17F13958000A3AA7 /* Foundation.framework */; };
+		0FA8347A17F13958000A3AA7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA8347917F13958000A3AA7 /* XCTest.framework */; };
+		0FA8347B17F13958000A3AA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA8346B17F13958000A3AA7 /* Foundation.framework */; };
+		0FA8347D17F13958000A3AA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA8347C17F13958000A3AA7 /* UIKit.framework */; };
+		0FA8348017F13958000A3AA7 /* libSterling_iOS_Framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA8346817F13958000A3AA7 /* libSterling_iOS_Framework.a */; };
+		0FA8348617F13958000A3AA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FA8348417F13958000A3AA7 /* InfoPlist.strings */; };
+		0FA8348817F13958000A3AA7 /* Sterling_iOS_FrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8348717F13958000A3AA7 /* Sterling_iOS_FrameworkTests.m */; };
+		0FA8349217F1399D000A3AA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA8349117F1399D000A3AA7 /* UIKit.framework */; };
+		0FA8349417F139B4000A3AA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA8349317F139B4000A3AA7 /* CoreGraphics.framework */; };
+		0FA8349617F139BB000A3AA7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA8349517F139BB000A3AA7 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FA8347E17F13958000A3AA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FA8346017F13958000A3AA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FA8346717F13958000A3AA7;
+			remoteInfo = Sterling_iOS_Framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0FA8346617F13958000A3AA7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F31874617F13B05002923D1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		0F31874817F13C7D002923D1 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0F31874917F13C7D002923D1 /* FriendSuggestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendSuggestionViewController.h; sourceTree = "<group>"; };
+		0F31874A17F13C7D002923D1 /* FriendSuggestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendSuggestionViewController.m; sourceTree = "<group>"; };
+		0F31874B17F13C7D002923D1 /* CloseFriendsDataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseFriendsDataAccess.h; sourceTree = "<group>"; };
+		0F31874C17F13C7D002923D1 /* CloseFriendsDataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloseFriendsDataAccess.m; sourceTree = "<group>"; };
+		0FA8346817F13958000A3AA7 /* libSterling_iOS_Framework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSterling_iOS_Framework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA8346B17F13958000A3AA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FA8346F17F13958000A3AA7 /* Sterling_iOS_Framework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sterling_iOS_Framework-Prefix.pch"; sourceTree = "<group>"; };
+		0FA8347817F13958000A3AA7 /* Sterling_iOS_FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sterling_iOS_FrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA8347917F13958000A3AA7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0FA8347C17F13958000A3AA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0FA8348317F13958000A3AA7 /* Sterling_iOS_FrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sterling_iOS_FrameworkTests-Info.plist"; sourceTree = "<group>"; };
+		0FA8348517F13958000A3AA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FA8348717F13958000A3AA7 /* Sterling_iOS_FrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sterling_iOS_FrameworkTests.m; sourceTree = "<group>"; };
+		0FA8349117F1399D000A3AA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0FA8349317F139B4000A3AA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0FA8349517F139BB000A3AA7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FA8346517F13958000A3AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA8349617F139BB000A3AA7 /* QuartzCore.framework in Frameworks */,
+				0F31874717F13B05002923D1 /* FacebookSDK.framework in Frameworks */,
+				0FA8349417F139B4000A3AA7 /* CoreGraphics.framework in Frameworks */,
+				0FA8349217F1399D000A3AA7 /* UIKit.framework in Frameworks */,
+				0FA8346C17F13958000A3AA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA8347517F13958000A3AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA8348017F13958000A3AA7 /* libSterling_iOS_Framework.a in Frameworks */,
+				0FA8347A17F13958000A3AA7 /* XCTest.framework in Frameworks */,
+				0FA8347D17F13958000A3AA7 /* UIKit.framework in Frameworks */,
+				0FA8347B17F13958000A3AA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FA8345F17F13958000A3AA7 = {
+			isa = PBXGroup;
+			children = (
+				0FA8346D17F13958000A3AA7 /* Sterling_iOS_Framework */,
+				0FA8348117F13958000A3AA7 /* Sterling_iOS_FrameworkTests */,
+				0FA8346A17F13958000A3AA7 /* Frameworks */,
+				0FA8346917F13958000A3AA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FA8346917F13958000A3AA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FA8346817F13958000A3AA7 /* libSterling_iOS_Framework.a */,
+				0FA8347817F13958000A3AA7 /* Sterling_iOS_FrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FA8346A17F13958000A3AA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F31874617F13B05002923D1 /* FacebookSDK.framework */,
+				0FA8349517F139BB000A3AA7 /* QuartzCore.framework */,
+				0FA8349317F139B4000A3AA7 /* CoreGraphics.framework */,
+				0FA8349117F1399D000A3AA7 /* UIKit.framework */,
+				0FA8346B17F13958000A3AA7 /* Foundation.framework */,
+				0FA8347917F13958000A3AA7 /* XCTest.framework */,
+				0FA8347C17F13958000A3AA7 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FA8346D17F13958000A3AA7 /* Sterling_iOS_Framework */ = {
+			isa = PBXGroup;
+			children = (
+				0F31874817F13C7D002923D1 /* MainStoryboard.storyboard */,
+				0F31874917F13C7D002923D1 /* FriendSuggestionViewController.h */,
+				0F31874A17F13C7D002923D1 /* FriendSuggestionViewController.m */,
+				0F31874B17F13C7D002923D1 /* CloseFriendsDataAccess.h */,
+				0F31874C17F13C7D002923D1 /* CloseFriendsDataAccess.m */,
+				0FA8346E17F13958000A3AA7 /* Supporting Files */,
+			);
+			path = Sterling_iOS_Framework;
+			sourceTree = "<group>";
+		};
+		0FA8346E17F13958000A3AA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FA8346F17F13958000A3AA7 /* Sterling_iOS_Framework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0FA8348117F13958000A3AA7 /* Sterling_iOS_FrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FA8348717F13958000A3AA7 /* Sterling_iOS_FrameworkTests.m */,
+				0FA8348217F13958000A3AA7 /* Supporting Files */,
+			);
+			path = Sterling_iOS_FrameworkTests;
+			sourceTree = "<group>";
+		};
+		0FA8348217F13958000A3AA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FA8348317F13958000A3AA7 /* Sterling_iOS_FrameworkTests-Info.plist */,
+				0FA8348417F13958000A3AA7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FA8346717F13958000A3AA7 /* Sterling_iOS_Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FA8348B17F13958000A3AA7 /* Build configuration list for PBXNativeTarget "Sterling_iOS_Framework" */;
+			buildPhases = (
+				0FA8346417F13958000A3AA7 /* Sources */,
+				0FA8346517F13958000A3AA7 /* Frameworks */,
+				0FA8346617F13958000A3AA7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sterling_iOS_Framework;
+			productName = Sterling_iOS_Framework;
+			productReference = 0FA8346817F13958000A3AA7 /* libSterling_iOS_Framework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0FA8347717F13958000A3AA7 /* Sterling_iOS_FrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FA8348E17F13958000A3AA7 /* Build configuration list for PBXNativeTarget "Sterling_iOS_FrameworkTests" */;
+			buildPhases = (
+				0FA8347417F13958000A3AA7 /* Sources */,
+				0FA8347517F13958000A3AA7 /* Frameworks */,
+				0FA8347617F13958000A3AA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FA8347F17F13958000A3AA7 /* PBXTargetDependency */,
+			);
+			name = Sterling_iOS_FrameworkTests;
+			productName = Sterling_iOS_FrameworkTests;
+			productReference = 0FA8347817F13958000A3AA7 /* Sterling_iOS_FrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FA8346017F13958000A3AA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Sterling;
+			};
+			buildConfigurationList = 0FA8346317F13958000A3AA7 /* Build configuration list for PBXProject "Sterling_iOS_Framework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0FA8345F17F13958000A3AA7;
+			productRefGroup = 0FA8346917F13958000A3AA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FA8346717F13958000A3AA7 /* Sterling_iOS_Framework */,
+				0FA8347717F13958000A3AA7 /* Sterling_iOS_FrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FA8347617F13958000A3AA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA8348617F13958000A3AA7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FA8346417F13958000A3AA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F31874E17F13C7D002923D1 /* CloseFriendsDataAccess.m in Sources */,
+				0F31874D17F13C7D002923D1 /* FriendSuggestionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA8347417F13958000A3AA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA8348817F13958000A3AA7 /* Sterling_iOS_FrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FA8347F17F13958000A3AA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FA8346717F13958000A3AA7 /* Sterling_iOS_Framework */;
+			targetProxy = 0FA8347E17F13958000A3AA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0FA8348417F13958000A3AA7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FA8348517F13958000A3AA7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FA8348917F13958000A3AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FA8348A17F13958000A3AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FA8348C17F13958000A3AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Sterling_iOS_Framework.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/adamgluck/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sterling_iOS_Framework/Sterling_iOS_Framework-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		0FA8348D17F13958000A3AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Sterling_iOS_Framework.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/adamgluck/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sterling_iOS_Framework/Sterling_iOS_Framework-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		0FA8348F17F13958000A3AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sterling_iOS_Framework/Sterling_iOS_Framework-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sterling_iOS_FrameworkTests/Sterling_iOS_FrameworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0FA8349017F13958000A3AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sterling_iOS_Framework/Sterling_iOS_Framework-Prefix.pch";
+				INFOPLIST_FILE = "Sterling_iOS_FrameworkTests/Sterling_iOS_FrameworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FA8346317F13958000A3AA7 /* Build configuration list for PBXProject "Sterling_iOS_Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA8348917F13958000A3AA7 /* Debug */,
+				0FA8348A17F13958000A3AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FA8348B17F13958000A3AA7 /* Build configuration list for PBXNativeTarget "Sterling_iOS_Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA8348C17F13958000A3AA7 /* Debug */,
+				0FA8348D17F13958000A3AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FA8348E17F13958000A3AA7 /* Build configuration list for PBXNativeTarget "Sterling_iOS_FrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA8348F17F13958000A3AA7 /* Debug */,
+				0FA8349017F13958000A3AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FA8346017F13958000A3AA7 /* Project object */;
+}
