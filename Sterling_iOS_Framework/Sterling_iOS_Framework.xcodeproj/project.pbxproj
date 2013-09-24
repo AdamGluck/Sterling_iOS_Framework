@@ -10,6 +10,7 @@
 		0F31874717F13B05002923D1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F31874617F13B05002923D1 /* FacebookSDK.framework */; };
 		0F31874D17F13C7D002923D1 /* FriendSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F31874A17F13C7D002923D1 /* FriendSuggestionViewController.m */; };
 		0F31874E17F13C7D002923D1 /* CloseFriendsDataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F31874C17F13C7D002923D1 /* CloseFriendsDataAccess.m */; };
+		0F31875517F13E05002923D1 /* CloseFriendsDataAccess+GetFriends.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F31875417F13E05002923D1 /* CloseFriendsDataAccess+GetFriends.m */; };
 		0FA8346C17F13958000A3AA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA8346B17F13958000A3AA7 /* Foundation.framework */; };
 		0FA8347A17F13958000A3AA7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA8347917F13958000A3AA7 /* XCTest.framework */; };
 		0FA8347B17F13958000A3AA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA8346B17F13958000A3AA7 /* Foundation.framework */; };
@@ -46,11 +47,13 @@
 
 /* Begin PBXFileReference section */
 		0F31874617F13B05002923D1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
-		0F31874817F13C7D002923D1 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0F31874817F13C7D002923D1 /* SterlingStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SterlingStoryboard.storyboard; sourceTree = "<group>"; };
 		0F31874917F13C7D002923D1 /* FriendSuggestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendSuggestionViewController.h; sourceTree = "<group>"; };
 		0F31874A17F13C7D002923D1 /* FriendSuggestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendSuggestionViewController.m; sourceTree = "<group>"; };
 		0F31874B17F13C7D002923D1 /* CloseFriendsDataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseFriendsDataAccess.h; sourceTree = "<group>"; };
 		0F31874C17F13C7D002923D1 /* CloseFriendsDataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloseFriendsDataAccess.m; sourceTree = "<group>"; };
+		0F31875317F13E05002923D1 /* CloseFriendsDataAccess+GetFriends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CloseFriendsDataAccess+GetFriends.h"; sourceTree = "<group>"; };
+		0F31875417F13E05002923D1 /* CloseFriendsDataAccess+GetFriends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CloseFriendsDataAccess+GetFriends.m"; sourceTree = "<group>"; };
 		0FA8346817F13958000A3AA7 /* libSterling_iOS_Framework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSterling_iOS_Framework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA8346B17F13958000A3AA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0FA8346F17F13958000A3AA7 /* Sterling_iOS_Framework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sterling_iOS_Framework-Prefix.pch"; sourceTree = "<group>"; };
@@ -128,11 +131,13 @@
 		0FA8346D17F13958000A3AA7 /* Sterling_iOS_Framework */ = {
 			isa = PBXGroup;
 			children = (
-				0F31874817F13C7D002923D1 /* MainStoryboard.storyboard */,
+				0F31874817F13C7D002923D1 /* SterlingStoryboard.storyboard */,
 				0F31874917F13C7D002923D1 /* FriendSuggestionViewController.h */,
 				0F31874A17F13C7D002923D1 /* FriendSuggestionViewController.m */,
 				0F31874B17F13C7D002923D1 /* CloseFriendsDataAccess.h */,
 				0F31874C17F13C7D002923D1 /* CloseFriendsDataAccess.m */,
+				0F31875317F13E05002923D1 /* CloseFriendsDataAccess+GetFriends.h */,
+				0F31875417F13E05002923D1 /* CloseFriendsDataAccess+GetFriends.m */,
 				0FA8346E17F13958000A3AA7 /* Supporting Files */,
 			);
 			path = Sterling_iOS_Framework;
@@ -245,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F31875517F13E05002923D1 /* CloseFriendsDataAccess+GetFriends.m in Sources */,
 				0F31874E17F13C7D002923D1 /* CloseFriendsDataAccess.m in Sources */,
 				0F31874D17F13C7D002923D1 /* FriendSuggestionViewController.m in Sources */,
 			);

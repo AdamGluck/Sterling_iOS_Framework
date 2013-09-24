@@ -11,5 +11,6 @@
 @interface FriendSuggestionViewController : UICollectionViewController
 
 @property (strong, nonatomic) NSArray * selectionColors;
++(FriendSuggestionViewController*)initializeFriendSuggestionViewController;
 
 @end

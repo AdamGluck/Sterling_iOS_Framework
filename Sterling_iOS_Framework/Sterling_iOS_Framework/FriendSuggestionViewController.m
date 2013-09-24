@@ -8,7 +8,7 @@
 
 #import "FriendSuggestionViewController.h"
 #import <FacebookSDK/FacebookSDK.h>
-#import "CloseFriendsDataAccess.h"
+#import "CloseFriendsDataAccess+GetFriends.h"
 #import <QuartzCore/QuartzCore.h>
 
 @interface FriendSuggestionViewController () <CloseFriendsDataAccessDelegate>
@@ -19,6 +19,12 @@
 @end
 
 @implementation FriendSuggestionViewController
+
++(FriendSuggestionViewController*)initializeFriendSuggestionViewController
+{
+    FriendSuggestionViewController * viewController = [[UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil] instantiateInitialViewController];
+    return viewController;
+}
 
 - (void)viewDidLoad
 {

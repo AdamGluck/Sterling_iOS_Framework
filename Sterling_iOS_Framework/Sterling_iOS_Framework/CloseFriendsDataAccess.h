@@ -28,7 +28,6 @@ typedef NS_ENUM(NSInteger, SterlingRequestServerResponse){
 @property (weak, nonatomic) id <CloseFriendsDataAccessDelegate> delegate;
 
 -(void)sterlingUserLogin;
--(void)closeFriendsList;
 -(void)invitationsPostedToUsers: (NSArray *) invitationList;
 
 +(NSString *)fb_id;
